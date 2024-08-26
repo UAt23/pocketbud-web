@@ -7,7 +7,7 @@ function AccountCard() {
 				<span className="text-xs xl:text-sm text-neutral-400 font-medium">
 					Available Balance
 				</span>
-				<span className="text-xl xl:text-3xl text-blue-500 font-medium">
+				<span className="text-xl xl:text-3xl text-[#118ab2] font-medium">
 					24,563.54₺
 				</span>
 			</div>
@@ -21,7 +21,7 @@ function AccountCard() {
 					</span>
 				</div>
 				<div className="flex flex-col gap-1">
-					<span className="text-sm font-bold text-red-600">
+					<span className="text-sm font-bold text-[#ef476f]">
 						14,567.54₺
 					</span>
 					<span className="text-xs font-normal text-neutral-400 text-right">

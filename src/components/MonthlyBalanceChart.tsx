@@ -45,7 +45,9 @@ function MonthlyBalanceChart() {
 	return (
 		<div className="bg-white rounded-lg p-4 h-full shadow-lg">
 			<div className="flex justify-between items-center">
-				<h1 className="text-lg font-semibold text-neutral-700 mb-6">Monthly Balance</h1>
+				<h1 className="text-lg font-semibold text-neutral-700 mb-6">
+					Monthly Balance
+				</h1>
 				{/* <Image src="/moreDark.png" alt="" width={20} height={20} /> */}
 			</div>
 			<ResponsiveContainer width="100%" height="90%">
@@ -70,7 +72,7 @@ function MonthlyBalanceChart() {
 						contentStyle={{
 							borderRadius: "12px",
 							borderColor: "lightgray",
-              textTransform: "capitalize",
+							textTransform: "capitalize",
 						}}
 					/>
 					<Legend
@@ -78,18 +80,18 @@ function MonthlyBalanceChart() {
 						verticalAlign="bottom"
 						wrapperStyle={{
 							paddingTop: "20px",
-              textTransform: "capitalize"
+							textTransform: "capitalize",
 						}}
 					/>
 					<Bar
 						dataKey="income"
-						fill="#22c55e"
+						fill="#06d6a0"
 						legendType="circle"
 						radius={[10, 10, 0, 0]}
 					/>
 					<Bar
 						dataKey="expense"
-						fill="#dc2626"
+						fill="#ef476f"
 						legendType="circle"
 						radius={[10, 10, 0, 0]}
 					/>
