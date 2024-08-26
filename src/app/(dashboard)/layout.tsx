@@ -13,7 +13,7 @@ export default function DashboardLayout({
 			<div className="w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%] p-4">
 				<Link
 					href="/"
-					className="flex items-center justify-center gap-2"
+					className="flex items-center justify-start gap-2"
 				>
 					<Image src="/icons/wallet.svg" alt="logo" width={32} height={32} />
 					<span className="hidden lg:block text-2xl font-bold">PocketBud</span>
@@ -21,7 +21,7 @@ export default function DashboardLayout({
 				<Menu />
 			</div>
 			{/* RIGHT */}
-			<div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#F7F8FA] overflow-auto flex flex-col">
+			<div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#f5f5f7] overflow-auto flex flex-col">
 				Navbar
 				{children}
 			</div>

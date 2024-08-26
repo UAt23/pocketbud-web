@@ -12,14 +12,14 @@ interface TableProps {
 
 const CustomTable: React.FC<TableProps> = ({ columns, data }) => {
 	return (
-		<div className="overflow-x-auto">
-			<table className="min-w-full bg-white border border-gray-200 rounded-lg">
+		<div className="overflow-x-auto p-6">
+			<table className="min-w-full bg-white rounded-lg shadow-lg">
 				<thead>
 					<tr>
 						{columns.map((column, index) => (
 							<th
 								key={index}
-								className="px-6 py-3 text-left text-sm font-medium text-gray-600 border-b"
+								className="px-6 py-3 text-left text-sm font-semibold text-gray-700 border-b"
 							>
 								{column.header}
 							</th>
@@ -30,9 +30,7 @@ const CustomTable: React.FC<TableProps> = ({ columns, data }) => {
 					{data.map((row, rowIndex) => (
 						<tr
 							key={rowIndex}
-							className={`${
-								rowIndex % 2 === 0 ? "bg-gray-50" : "bg-white"
-							} hover:bg-gray-100 transition-colors duration-200`}
+							className="hover:bg-gray-100 transition-colors duration-200"
 						>
 							{columns.map((column, colIndex) => (
 								<td

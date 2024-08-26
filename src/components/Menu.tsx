@@ -16,7 +16,7 @@ const menuItems = [
 				href: "/transactions",
 			},
 			{
-				icon: "/icons/student.png",
+				icon: "/icons/budget.svg",
 				label: "Budget",
 				href: "/budget",
 			},
@@ -49,10 +49,10 @@ const menuItems = [
 
 const Menu = () => {
 	return (
-		<div className="mt-4 text-sm">
+		<div className="mt-8 text-sm">
 			{menuItems.map((i) => (
 				<div className="flex flex-col gap-2" key={i.title}>
-					<span className="hidden lg:block text-neutral-100 font-semibold my-2">
+					<span className="hidden lg:block text-neutral-100 font-semibold mt-2 border-b-2 border-neutral-400">
 						{i.title}
 					</span>
 					{i.items.map((item) => {
