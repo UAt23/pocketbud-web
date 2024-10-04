@@ -38,7 +38,7 @@ function AddTransaction() {
 				<div className="flex items-center justify-between">
 					<SearchBox />
 					<div className="flex flex-row gap-4">
-						<div className="flex flex-row items-center gap-2 p-2 bg-transparent ring-2 ring-neutral-600 rounded-lg shadow-md hover:shadow-lg active:shadow-md transition-all select-none">
+						<div className="flex flex-row items-center gap-2 p-2 bg-transparent ring-2 ring-neutral-600 rounded-lg shadow-md hover:shadow-lg hover:-translate-y-0.5 active:shadow-md active:hover:-translate-y-0 transition-all select-none">
 							<Image
 								src="/icons/plus-square-rounded.svg"
 								alt="Filter Icons"

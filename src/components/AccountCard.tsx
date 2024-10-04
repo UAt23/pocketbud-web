@@ -2,7 +2,7 @@ import React from "react";
 
 function AccountCard() {
 	return (
-		<div className="w-[22%] flex flex-col gap-4 bg-white rounded-xl p-4 shadow-xl">
+		<div className="w-[30%] flex flex-col gap-4 bg-white rounded-xl p-4 shadow-xl">
 			<div className="flex flex-col gap-1">
 				<span className="text-xs xl:text-sm text-neutral-400 font-medium">
 					Available Balance
@@ -21,7 +21,7 @@ function AccountCard() {
 					</span>
 				</div>
 				<div className="flex flex-col gap-1">
-					<span className="text-sm font-bold text-[#ef476f]">
+					<span className="text-sm font-bold text-[#9e2a2b]">
 						14,567.54₺
 					</span>
 					<span className="text-xs font-normal text-neutral-400 text-right">

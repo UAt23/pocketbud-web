@@ -85,13 +85,13 @@ function MonthlyBalanceChart() {
 					/>
 					<Bar
 						dataKey="income"
-						fill="#06d6a0"
+						fill="#a3b18a"
 						legendType="circle"
 						radius={[10, 10, 0, 0]}
 					/>
 					<Bar
 						dataKey="expense"
-						fill="#ef476f"
+						fill="#9e2a2b"
 						legendType="circle"
 						radius={[10, 10, 0, 0]}
 					/>
